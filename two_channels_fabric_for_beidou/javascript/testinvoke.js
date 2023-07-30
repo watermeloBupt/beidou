@@ -100,6 +100,8 @@ async function main() {
         // 最终通过合同（对应于编写的智能合约逻辑），实现对区块链的调用
         const contract1 = network1.getContract('myccone');
         const contract2 = network2.getContract('mycctwo');
+        // 新的chaincode安装在network1中，如果安装的不是这个网络，需要调整这部分代码
+        const contract3 = network1.getContract('myccthree');
 
         // 接受认证请求的接口，POST类型
         // 这里是主要逻辑
@@ -208,6 +210,43 @@ async function main() {
             // console.log('Transaction has been submitted');
         });
 
+        // Post接口，插入一条行为日志数据
+        app.post("/api/insertAction", async function(req, res) {
+            console.log(req.body)
+            try {
+                let currentTime = moment.(Date.now()).format('YYYY-MM-DD HH:mm:ss')
+                var result  = await contract3.submitTransaction('insert', currentTime, req.body.operator, req.body.action, req.body.detail)
+                result = JSON.parse(result)
+                res.json(result)    // res的内容可以看chaincode03  insert接口的内容
+            } catch(error) {
+                console.error(error);
+                res.json({
+                    "code": "0",
+                    "data": String(error)
+                });
+            }
+        });
+
+        // Get接口，展示所有行为日志数据
+        app.get("/api/getAllActions", async function(req, res) {
+            try {
+                var result = await contract3.submitTransaction("getAll");
+                result = JSON.parse(result)
+                if (result.code == "0") {
+                    res.json(result)
+                } else {
+                    //
+                    // 这里可能需要一定的调试
+                    res.json(result)
+                }
+            } catch(error) {
+                console.error(error);
+                res.json({
+                    "code": "0",
+                    "data": String(error)
+                });
+            }
+        });
         
         // 调用阻塞特定设备，暂时做假数据，全返回成功
         app.post('/api/blockFlow', async function(req, res) {
@@ -217,7 +256,7 @@ async function main() {
                         'result': true,
                         'details': ""
                     })
-        })
+        });
 
     } catch (error) {
         console.error(`Failed to submit transaction: ${error}`);
