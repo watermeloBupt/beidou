@@ -1,0 +1,251 @@
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.209',
+  macAddress: '00:11:22:33:44:55',
+  cpuPhysicalCores: '4',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1716640954079'
+}
+本次认证在客户端创建的时间为： 2024-05-25 20:42:34:079 ，到达服务器准备开始认证的时间为： 2024-05-25 20:42:34:748 ，认证结束的时间为： 2024-05-25 20:42:46:033
+本次认证的系统响应时间为： 11954 ms，事务的响应时间为： 11285 ms
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.20',
+  macAddress: '00:11:22:33:44:55',
+  cpuPhysicalCores: '4',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1716640984733'
+}
+本次认证在客户端创建的时间为： 2024-05-25 20:43:04:733 ，到达服务器准备开始认证的时间为： 2024-05-25 20:43:05:364 ，认证结束的时间为： 2024-05-25 20:43:05:433
+本次认证的系统响应时间为： 700 ms，事务的响应时间为： 69 ms
+--------Insert a warning detail.
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+================================
+I get a GET request for devices
+I get a GET request to get WARNINGs
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+================================
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.209',
+  macAddress: '00:11:22:33:44:66',
+  cpuPhysicalCores: '4',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1716642115250'
+}
+本次认证在客户端创建的时间为： 2024-05-25 21:01:55:250 ，到达服务器准备开始认证的时间为： 2024-05-25 21:01:55:882 ，认证结束的时间为： 2024-05-25 21:01:55:948
+本次认证的系统响应时间为： 698 ms，事务的响应时间为： 66 ms
+I get a GET request for devices
+I get a GET request to get WARNINGs
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.209',
+  macAddress: '00:11:22:33:44:66',
+  cpuPhysicalCores: '6',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1716642141919'
+}
+本次认证在客户端创建的时间为： 2024-05-25 21:02:21:919 ，到达服务器准备开始认证的时间为： 2024-05-25 21:02:22:548 ，认证结束的时间为： 2024-05-25 21:02:22:624
+本次认证的系统响应时间为： 705 ms，事务的响应时间为： 76 ms
+--------Insert a warning detail.
+I get a GET request for devices
+I get a GET request to get WARNINGs
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 71.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:55 ，该事务的平均响应时间： 5677.00 ms
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 71.00 ms
+================================
+Wallet path: /mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/wallet
+正在监听端口:2233
+An identity for the user "user1" does not exist in the wallet
+Run the registerUser.js application before retrying
+请开始测试
+Wallet path: /mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/wallet
+正在监听端口:2233
+An identity for the user "user1" does not exist in the wallet
+Run the registerUser.js application before retrying
+请开始测试
+Wallet path: /mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/wallet
+正在监听端口:2233
+An identity for the user "user1" does not exist in the wallet
+Run the registerUser.js application before retrying
+请开始测试
+Wallet path: /mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/wallet
+node:events:368
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::2233
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/testinvoke.js:458:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1361:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 2233
+}
+Wallet path: /mnt/nfs/xyjiang/go/src/github.com/hyperledger/fabric-samples/three_channels_fabric_for_beidou/javascript/wallet
+正在监听端口:2233
+请开始测试
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.209',
+  macAddress: '00:11:22:33:44:66',
+  cpuPhysicalCores: '6',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1717679785235'
+}
+本次认证在客户端创建的时间为： 2024-06-06 21:16:25:235 ，到达服务器准备开始认证的时间为： 2024-06-06 21:16:27:909 ，认证结束的时间为： 2024-06-06 21:16:42:683
+本次认证的系统响应时间为： 17448 ms，事务的响应时间为： 14774 ms
+
+——————————————————————————————
+
+undefined
+get information: {
+  ipAddress: '10.128.170.20',
+  macAddress: '00:11:22:33:44:66',
+  cpuPhysicalCores: '6',
+  instructionSet: 'Linux',
+  cpuSpeed: '4600',
+  cpuVersion: '5.0',
+  cpuRegisterInfo: 'info12',
+  systemMemorySize: '1G',
+  systemHardDiskSize: '5G',
+  imei: 'mei_11',
+  imsi: 'msi_11',
+  iccid: '4345654',
+  businessPort: '3390',
+  beidouMsg: '234.454, 234.543',
+  currentTime: '1717680504042'
+}
+本次认证在客户端创建的时间为： 2024-06-06 21:28:24:042 ，到达服务器准备开始认证的时间为： 2024-06-06 21:28:26:666 ，认证结束的时间为： 2024-06-06 21:28:26:798
+本次认证的系统响应时间为： 2756 ms，事务的响应时间为： 132 ms
+--------Insert a warning detail.
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+I get a GET request to get WARNINGs
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+I get a GET request to get WARNINGs
+I get a GET request to get WARNINGs
+I get a GET request for devices
+I get a GET request to get WARNINGs
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+I get a GET request to get WARNINGs
+I get a GET request for devices
+================================
+事务mac地址为： 00:11:22:33:44:66 ，该事务的平均响应时间： 7453.00 ms
+================================
+I get a GET request for devices
+I get a GET request for devices
