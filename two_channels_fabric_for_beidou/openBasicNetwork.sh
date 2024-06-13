@@ -2,6 +2,10 @@ set -x
 ## 清理环境
 cp -r ./projectChaincode01 ../chaincode/
 cp -r ./projectChaincode02 ../chaincode/
+##  合约3开始
+cp -r ./projectChaincode03 ../chaincode/
+cp -r ./projectChaincode04 ../chaincode/
+##  合约3结束
 
 rm -rf ./channel-artifacts && rm -rf ./crypto-config
 docker-compose down -v
@@ -53,7 +57,7 @@ cp docker-compose.yaml.temp docker-compose.yaml
 
 sed -i "s/PRIV_KEY/${PRIV_KEY}/g" docker-compose.yaml
 
-## 
+##
 docker-compose up -d
 docker ps
 
@@ -70,7 +74,7 @@ bash -c "docker exec -e "CORE_PEER_LOCALMSPID=Org2MSP" -e "CORE_PEER_TLS_ROOTCER
 #gnome-terminal -e 'bash -c "docker exec -e "CORE_PEER_LOCALMSPID=Org2MSP" -e "CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp" -e "CORE_PEER_ADDRESS=peer0.org2.example.com:7051" -it cli bash -c \"cd scripts;chmod 777 ./org2_option.sh;./org2_option.sh\""'
 
 ##
-sleep 10
+sleep 22
 cd javascript/
 ./startapp.sh
 
